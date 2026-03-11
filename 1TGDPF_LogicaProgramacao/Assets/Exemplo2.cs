@@ -15,7 +15,7 @@ public class Exemplo2 : MonoBehaviour
     void Start()
     {
         float salarioFinal = valorHora * horasTrabalhadas;
-        print(nomeFuncionario + " você irá receber: " + salarioFinal);
+        print(nomeFuncionario + " você irá receber: " + salarioFinal );
     }
    
 }
