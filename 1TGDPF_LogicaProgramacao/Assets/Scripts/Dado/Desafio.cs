@@ -24,6 +24,7 @@ public class Desafio : MonoBehaviour
         {
             // REGISTRA A TENTATIVA
             tentativas++;
+            print("Tentativas: " + tentativas);
 
             // VERIFICA A COMPARACAO DO VALOR DO JOGADOR COM O NUMERO SORTEADO (SECRETO)
             if(numeroJogador == numeroSecreto)
